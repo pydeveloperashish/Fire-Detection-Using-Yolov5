@@ -1,0 +1,7 @@
+python3 train.py --img 416 --batch 16 --epochs 100 --data /media/dev_ashish/DATA1/Python37/Projects/Fire-Detection-Using-Yolo/yolov5/Dataset/data.yaml --cfg /media/dev_ashish/DATA1/Python37/Projects/Fire-Detection-Using-Yolo/yolov5/models/yolov5m_custom_Cell.yaml --weights '' --name yolov5m_results_Fire
+
+
+
+
+
+python3 detect.py --weights /media/dev_ashish/DATA1/Python37/Projects/Fire-Detection-Using-Yolo/yolov5/runs/train/yolov5m_results_Fire/weights/best.pt --img 416 --conf 0.4 --source /media/dev_ashish/DATA1/Python37/Projects/Fire-Detection-Using-Yolo/yolov5/Dataset/val/images

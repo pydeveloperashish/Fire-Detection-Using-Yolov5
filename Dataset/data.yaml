@@ -1,0 +1,6 @@
+train: /media/dev_ashish/DATA1/Python37/Projects/Fire-Detection-Using-Yolo/yolov5/Dataset/train
+val: /media/dev_ashish/DATA1/Python37/Projects/Fire-Detection-Using-Yolo/yolov5/Dataset/val
+
+nc: 0
+names: ['Fire']
+
